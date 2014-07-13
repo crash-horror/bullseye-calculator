@@ -1,4 +1,4 @@
 bullseye-calculator
 ===================
 
-Calculate your BullsEye and get you intercept info.
+Calculate your BullsEye and get your intercept info.
