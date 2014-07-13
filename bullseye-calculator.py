@@ -108,7 +108,7 @@ def drawbearing(_bearing):
 
 
 class Bulls:
-    """My first attempt in classses so: wtf shit dammit"""
+    """My first attempt in classes so: wtf shit dammit"""
 
     def __init__(self, dotcolor=black):
         self.BRA = [0, 0]
