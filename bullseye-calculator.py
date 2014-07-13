@@ -268,18 +268,18 @@ def runMainLoop():
         setDisplay.blit(enemydistanceTXT, (680, 720))
 
     # pilot info results
-        bearingTXT = largeboldfont.render(str(bearing), True, white)
-        setDisplay.blit(bearingTXT, (300, 720))
+        bearingTXT = hugeboldfont.render(str(bearing), True, white)
+        setDisplay.blit(bearingTXT, (280, 700))
 
-        distanceTXT = largeboldfont.render(str(distance), True, white)
-        setDisplay.blit(distanceTXT, (420, 720))
+        distanceTXT = hugeboldfont.render(str(distance), True, white)
+        setDisplay.blit(distanceTXT, (410, 700))
 
     # small labels
         setDisplay.blit(radiallabelTXT, (50, 770))
         setDisplay.blit(distancelabelTXT, (150, 770))
 
-        setDisplay.blit(bearinglabelTXT, (300, 770))
-        setDisplay.blit(distancelabelTXT, (420, 770))
+        setDisplay.blit(bearinglabelTXT, (290, 770))
+        setDisplay.blit(distancelabelTXT, (415, 770))
 
         setDisplay.blit(radiallabelTXT, (580, 770))
         setDisplay.blit(distancelabelTXT, (680, 770))
@@ -309,6 +309,8 @@ ring = pygame.image.load('ring_grey_lines.png')
 
 # fonts
 largeboldfont = pygame.font.SysFont("tahoma", 45)
+hugeboldfont = pygame.font.SysFont("tahoma", 60)
+
 labelfont = pygame.font.SysFont("tahoma", 15)
 hugefont = pygame.font.SysFont("tahoma", 65)
 ingofont = pygame.font.SysFont("tahoma", 25)
