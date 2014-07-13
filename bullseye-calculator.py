@@ -15,6 +15,7 @@ import math
 from pygame.locals import *
 
 
+# a bunch of colors
 black = (0, 0, 0)
 white = (255, 255, 255)
 red = (255, 0, 0)
@@ -49,11 +50,6 @@ step_bearing = 5
 xyDIV = 1
 scalenumber = 25
 
-UP = 'up'
-DOWN = 'down'
-RIGHT = 'right'
-LEFT = 'left'
-NONE = 'none'
 
 myBRA = [0, 0]
 enemyBRA = [0, 0]
