@@ -135,7 +135,7 @@ def runMainLoop():
     global myBRA, enemyBRA, step_bearing
     while True:
         for event in pygame.event.get():
-            print(event)
+            # print(event) # <<------------ debug fossil
             if event.type == QUIT:
                 pygame.quit()
                 sys.exit()
