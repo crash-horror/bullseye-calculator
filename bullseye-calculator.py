@@ -275,13 +275,13 @@ def runMainLoop():
         setDisplay.blit(distanceTXT, (420, 720))
 
     # small labels
-        setDisplay.blit(bearinglabelTXT, (50, 770))
+        setDisplay.blit(radiallabelTXT, (50, 770))
         setDisplay.blit(distancelabelTXT, (150, 770))
 
         setDisplay.blit(bearinglabelTXT, (300, 770))
         setDisplay.blit(distancelabelTXT, (420, 770))
 
-        setDisplay.blit(bearinglabelTXT, (580, 770))
+        setDisplay.blit(radiallabelTXT, (580, 770))
         setDisplay.blit(distancelabelTXT, (680, 770))
 
     # large labels
@@ -316,6 +316,7 @@ ingofont = pygame.font.SysFont("tahoma", 25)
 
 # text
 bearinglabelTXT = labelfont.render('bearing', True, gray)
+radiallabelTXT = labelfont.render('radial', True, gray)
 distancelabelTXT = labelfont.render('distance', True, gray)
 
 scalelabelTXT = hugefont.render('scale', True, darkgray)
